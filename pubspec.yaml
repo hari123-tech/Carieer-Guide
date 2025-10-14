@@ -1,0 +1,14 @@
+name: app
+description: A new Flutter project.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.5
+  firebase_analytics: ^10.8.5  # ✅ Add this line
+  cloud_firestore: ^4.13.3
+  cupertino_icons: ^1.0.8
