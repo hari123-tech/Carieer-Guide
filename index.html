@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 
+      If you are serving your web app in a path other than the root, 
+      make sure the href below matches your repository name.
+      Since your repo is "Carieer-Guide", this is correct:
+    -->
+    <base href="/Carieer-Guide/">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="Career Guide - A Flutter Web Application">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Career Guide">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>Career Guide</title>
+    <link rel="manifest" href="manifest.json">
+  </head>
+
+  <body>
+    <noscript>
+      <h2 style="color:red; text-align:center; margin-top:20%">
+        ⚠️ JavaScript is required to run this Flutter web app.
+      </h2>
+    </noscript>
+
+    <script>
+      // This ensures Flutter initializes correctly on GitHub Pages
+      window.addEventListener('load', function(ev) {
+        _flutter = document.createElement('script');
+        _flutter.src = 'flutter_bootstrap.js';
+        document.body.appendChild(_flutter);
+      });
+    </script>
+  </body>
+</html>
